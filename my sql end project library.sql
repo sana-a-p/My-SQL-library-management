@@ -146,7 +146,7 @@ where issue_date between '2023-06-01' and '2023-06-30';
 #9.Retrieve book_title from book table containing history.
 select book_title
 from books 
-where category='romance';
+where category='history';
 
 #10. Retrieve the branch numbers along with the count of employees for branches having more than 5 employees
 select branch.branch_no,count(*) as emp_count
